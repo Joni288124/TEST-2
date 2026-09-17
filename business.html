@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Planes — J‑NOVA</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #050712;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 42px;
+    }
+
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 60px;
+      padding: 20px;
+    }
+
+    .plan {
+      background: #0b0f1f;
+      border: 1px solid #20263d;
+      padding: 30px;
+      border-radius: 20px;
+      width: 320px;
+      transition: 0.3s;
+    }
+
+    .plan:hover {
+      transform: translateY(-6px);
+      border-color: #4a7bff;
+      box-shadow: 0 0 25px rgba(74, 123, 255, 0.4);
+    }
+
+    .plan h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .price {
+      margin-top: 10px;
+      font-size: 22px;
+      color: #4a7bff;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 30px;
+      padding: 12px;
+      background: #4a7bff;
+      color: #050712;
+      text-align: center;
+      border-radius: 999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #365fd6;
+      box-shadow: 0 0 25px rgba(74, 123, 255, 0.6);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Elige tu plan</h1>
+
+  <div class="plans">
+
+    <!-- PLAN GRATIS -->
+    <div class="plan">
+      <h2>Plan Gratis</h2>
+      <p class="price">0€ / mes</p>
+      <ul>
+        <li>Generador Web</li>
+        <li>Ideas de negocio</li>
+        <li>Resolver problemas</li>
+        <li>Planificador</li>
+        <li>Asistente de estudio</li>
+        <li>Generador de textos</li>
+      </ul>
+      <a href="dashboard.html" class="btn">Usar gratis</a>
+    </div>
+
+    <!-- PLAN BUSINESS -->
+    <div class="plan">
+      <h2>Plan Business</h2>
+      <p class="price">9.99€ / mes</p>
+      <ul>
+        <li>Plantillas premium</li>
+        <li>Generador avanzado</li>
+        <li>Exportación de código</li>
+        <li>Branding personalizado</li>
+        <li>Acceso completo al panel IA</li>
+      </ul>
+      <a href="dashboard.html" class="btn">Actualizar</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
 
